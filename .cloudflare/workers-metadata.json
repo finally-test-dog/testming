@@ -1,0 +1,21 @@
+{
+  "name": "dddd2bybitgateway",
+  "description": "Bybit trading bot running on Cloudflare Workers",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-09",
+  "compatibility_flags": ["nodejs_compat"],
+  "env_vars": [
+    {
+      "name": "BYBIT_API_KEY",
+      "description": "Your Bybit API Key"
+    },
+    {
+      "name": "BYBIT_API_SECRET",
+      "description": "Your Bybit API Secret"
+    },
+    {
+      "name": "WEBHOOK_TOKEN",
+      "description": "Security token for webhook verification"
+    }
+  ]
+} 
